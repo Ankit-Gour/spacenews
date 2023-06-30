@@ -19,6 +19,8 @@ function reload() {
         <div class="col-md-8">
           <div class="card-body">
             <p class="card-text">${e.summary}</p>
+            <a href="${e.url}"><button type="button" class="btn btn-primary" >Read More</button></a>
+
             <p class="card-text"><small class="text-body-secondary">${e.publishedAt}</small></p>
           </div>
         </div>
